@@ -1,5 +1,4 @@
 # BrainDump iOS App: Notetaking App for ADHD
----
 
 ## What is BrainDump?
 BrainDump is an iOS note app for a writing technique called "brain dump".
