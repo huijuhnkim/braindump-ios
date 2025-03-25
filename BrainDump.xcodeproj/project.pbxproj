@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F4F2B28C2D9246FA00F2186C /* BrainDumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F2B28B2D9246FA00F2186C /* BrainDumpViewController.swift */; };
+		F4F2B28E2D92471400F2186C /* BrainDumpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F2B28D2D92471400F2186C /* BrainDumpViewModel.swift */; };
+		F4F2B2902D92472400F2186C /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F2B28F2D92472400F2186C /* NotificationManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F4F2B2732D9246CB00F2186C /* BrainDumpMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainDumpMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F2B28B2D9246FA00F2186C /* BrainDumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpViewController.swift; sourceTree = "<group>"; };
+		F4F2B28D2D92471400F2186C /* BrainDumpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpViewModel.swift; sourceTree = "<group>"; };
+		F4F2B28F2D92472400F2186C /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +54,9 @@
 		F4F2B26A2D9246CA00F2186C = {
 			isa = PBXGroup;
 			children = (
+				F4F2B28B2D9246FA00F2186C /* BrainDumpViewController.swift */,
+				F4F2B28D2D92471400F2186C /* BrainDumpViewModel.swift */,
+				F4F2B28F2D92472400F2186C /* NotificationManager.swift */,
 				F4F2B2752D9246CB00F2186C /* BrainDumpMobile */,
 				F4F2B2742D9246CB00F2186C /* Products */,
 			);
@@ -132,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F2B2902D92472400F2186C /* NotificationManager.swift in Sources */,
+				F4F2B28C2D9246FA00F2186C /* BrainDumpViewController.swift in Sources */,
+				F4F2B28E2D92471400F2186C /* BrainDumpViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
